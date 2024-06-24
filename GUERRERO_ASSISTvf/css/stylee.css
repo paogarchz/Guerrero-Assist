@@ -1,0 +1,41 @@
+
+
+  .post {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 25px;
+    position: relative;
+  }
+  
+  .post:hover footer {
+    width: 100%;
+  }
+  
+  .post img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .post footer {
+    width: 0;
+    height: 100%;
+    background: rgba(58, 116, 183, 0.71);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .pao h2 {
+    color: #fff;
+    font-size: 1rem;
+    border: 6px solid #fff;
+    padding: .8em 1.9em;
+  }
